@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 62.5%;
+  color: #f4f4f4;
+  /* HEADER SECTION */
+  /* MAIN SECTION */
+}
+
+body header {
+  background-color: #333;
+  padding: 1rem;
+}
+
+body header .container {
+  text-align: center;
+}
+
+body header .container h1.heading {
+  text-transform: capitalize;
+  font-size: 2.6rem;
+}
+
+body main {
+  height: 100%;
+  width: 100%;
+}
+
+body main section {
+  height: 100%;
+  width: 100%;
+}
+
+body main section form.taskListForm {
+  width: 50%;
+  margin: 10rem auto;
+  background-color: #f4f4f4;
+  padding: 2rem;
+  border: 0.2rem solid #ccc;
+  color: #333;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
