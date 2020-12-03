@@ -37,10 +37,10 @@ body {
             width: 100%;
 
             form.taskListForm {
-                width: 50%;
-                margin: 6rem auto;
+                width: 60%;
+                margin: 2rem auto;
                 background-color: #f4f4f4;
-                padding: 2rem;
+                padding: 1.6rem;
                 border: 0.2rem solid #ccc;
                 color: #333;
                 text-align: center;
@@ -50,7 +50,7 @@ body {
                 .inputField {
                     display: flex;
                     flex-direction: column;
-                    font-size: 2rem;
+                    font-size: 1.6rem;
                     margin: 1rem;
 
                     input[type="text"] {
@@ -65,12 +65,13 @@ body {
                 .submitLists {
                     display: flex;
                     flex-direction: column;
-                    margin: 1rem;
+                    margin: 1.6rem;
 
                     input[type="submit"] {
                         padding: 0.6rem;
                         outline: none;
                         font-size: 1.2rem;
+                        color: #333;
                         border: 0.2rem solid #ccc;
                     }
 
@@ -80,25 +81,38 @@ body {
                     }
                 }
 
+                .listedItems {
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0.5rem;
 
-                ul.toDoList {
-                    list-style: none;
-
-                    li.toDoListItem {
-                        padding: 0.6rem;
-                        margin: 1rem;
-                        outline: none;
-                        font-size: 1.2rem;
-                        border: 0.2rem solid #ccc;
-
+                    h1 {
+                        text-transform: capitalize;
+                        font-size: 1.6rem;
                     }
+
+                    ul.toDoList {
+                        list-style: none;
+
+                        li.toDoListItem {
+                            padding: 0.6rem;
+                            margin: 1rem;
+                            outline: none;
+                            font-size: 1.2rem;
+                            border: 0.2rem solid #ccc;
+
+                        }
+                    }
+
                 }
+
+
 
 
                 .searchInput {
                     display: flex;
                     flex-direction: column;
-                    font-size: 2rem;
+                    font-size: 1.6rem;
                     margin: 1rem;
 
                     input[type="text"] {

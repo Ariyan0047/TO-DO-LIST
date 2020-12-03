@@ -39,10 +39,10 @@ body main section {
 }
 
 body main section form.taskListForm {
-  width: 50%;
-  margin: 6rem auto;
+  width: 60%;
+  margin: 2rem auto;
   background-color: #f4f4f4;
-  padding: 2rem;
+  padding: 1.6rem;
   border: 0.2rem solid #ccc;
   color: #333;
   text-align: center;
@@ -57,7 +57,7 @@ body main section form.taskListForm .inputField {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin: 1rem;
 }
 
@@ -77,13 +77,14 @@ body main section form.taskListForm .submitLists {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 1rem;
+  margin: 1.6rem;
 }
 
 body main section form.taskListForm .submitLists input[type="submit"] {
   padding: 0.6rem;
   outline: none;
   font-size: 1.2rem;
+  color: #333;
   border: 0.2rem solid #ccc;
 }
 
@@ -92,11 +93,27 @@ body main section form.taskListForm .submitLists input[type="submit"]:hover {
   background-color: #333;
 }
 
-body main section form.taskListForm ul.toDoList {
+body main section form.taskListForm .listedItems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0.5rem;
+}
+
+body main section form.taskListForm .listedItems h1 {
+  text-transform: capitalize;
+  font-size: 1.6rem;
+}
+
+body main section form.taskListForm .listedItems ul.toDoList {
   list-style: none;
 }
 
-body main section form.taskListForm ul.toDoList li.toDoListItem {
+body main section form.taskListForm .listedItems ul.toDoList li.toDoListItem {
   padding: 0.6rem;
   margin: 1rem;
   outline: none;
@@ -112,7 +129,7 @@ body main section form.taskListForm .searchInput {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin: 1rem;
 }
 
