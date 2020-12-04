@@ -181,4 +181,8 @@ body main .popUp .popUpWrapper .container button {
   margin: 1rem;
   outline: none;
 }
+
+body main .filtered {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
