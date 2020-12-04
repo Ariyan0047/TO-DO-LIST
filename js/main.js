@@ -52,7 +52,7 @@ const filteredListItems = (searchItem) => {
 
 }
 
-search.addEventListener("keyup", event => {
+search.addEventListener("keyup", () => {
     const searchItem = search.value.trim()
     filteredListItems(searchItem)
 })

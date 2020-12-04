@@ -168,3 +168,120 @@ body {
         }
     }
 }
+
+@media only screen and (min-width: 425px) {
+    main {
+        section {
+            form.taskListForm {
+                width: 80% !important;
+                padding: 1rem !important;
+
+                .inputField {
+                    input[type="text"] {
+                        font-size: 0.8rem !important;
+                    }
+                }
+
+                .searchInput {
+                    input[type="text"] {
+                        font-size: 0.8rem !important;
+                    }
+                }
+            }
+        }
+
+        .popUp {
+            .popUpWrapper {
+                h2 {
+                    font-size: 1rem !important;
+                }
+
+                .container {
+
+                    button {
+                        font-size: 0.8rem !important;
+                        padding: 0.8rem !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    main {
+        section {
+            form.taskListForm {
+                width: 80% !important;
+                padding: 1rem !important;
+
+                .inputField {
+                    input[type="text"] {
+                        font-size: 0.8rem !important;
+                    }
+                }
+
+                .searchInput {
+                    input[type="text"] {
+                        font-size: 0.8rem !important;
+                    }
+                }
+            }
+        }
+
+        .popUp {
+            .popUpWrapper {
+                h2 {
+                    font-size: 1rem !important;
+                }
+
+                .container {
+
+                    button {
+                        font-size: 0.6rem !important;
+                        padding: 0.8rem !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 320px) {
+    main {
+        section {
+            form.taskListForm {
+                width: 80% !important;
+                padding: 1rem !important;
+
+                .inputField {
+                    input[type="text"] {
+                        font-size: 0.8rem !important;
+                    }
+                }
+
+                .searchInput {
+                    input[type="text"] {
+                        font-size: 0.8rem !important;
+                    }
+                }
+            }
+        }
+
+        .popUp {
+            .popUpWrapper {
+                h2 {
+                    font-size: 1rem !important;
+                }
+
+                .container {
+
+                    button {
+                        font-size: 0.5rem !important;
+                        padding: 0.6rem !important;
+                    }
+                }
+            }
+        }
+    }
+}
