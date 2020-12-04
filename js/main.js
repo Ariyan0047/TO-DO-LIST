@@ -7,6 +7,7 @@ const generateTemplate = (todo) => {
     lists.innerHTML += generateHtml
 }
 
+
 addItemTask.addEventListener("submit", (event) => {
     event.preventDefault()
     const toDo = userInput.value.trim()
