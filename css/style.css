@@ -186,7 +186,7 @@ body main .filtered {
   display: none;
 }
 
-@media only screen and (min-width: 425px) {
+@media only screen and (max-width: 425px) {
   main section form.taskListForm {
     width: 80% !important;
     padding: 1rem !important;
@@ -206,7 +206,7 @@ body main .filtered {
   }
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 375px) {
   main section form.taskListForm {
     width: 80% !important;
     padding: 1rem !important;
@@ -226,7 +226,7 @@ body main .filtered {
   }
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
   main section form.taskListForm {
     width: 80% !important;
     padding: 1rem !important;
